@@ -1,2 +1,2 @@
 # Portfolio-Mockup
-Personalized portfolio mockup website
+Personalized Portfolio Mockup Website
