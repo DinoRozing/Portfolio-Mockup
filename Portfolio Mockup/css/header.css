@@ -1,0 +1,46 @@
+/* Header/Navigation */
+
+.header-container {
+  height: 90px;
+  width: 100%;
+  padding: 0 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-list li {
+  margin: 0 50px;
+}
+
+.header-nav-list li a {
+  text-decoration: none;
+  font-size: 21px;
+  color: var(--clr-body);
+  font-weight: 500;
+}
+
+.header-nav-list li a:hover {
+  color: var(--clr-primary);
+}
+
+.reverse-btn {
+  padding: 12px 40px;
+  border-radius: 18px;
+  color: var(--clr-primary);
+  border: 2px solid #5e3bee;
+  font-weight: 500;
+  font-size: 21px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.reverse-btn:hover {
+  color: white;
+  background-color: var(--clr-primary);
+  transition: all 0.15s ease;
+}

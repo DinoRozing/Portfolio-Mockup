@@ -1,0 +1,68 @@
+@import url('general.css');
+
+/* Hero Container */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.125rem 5rem;
+    width: 100%;
+    background-color: var(--clr-bg-shade);
+}   
+
+/* Left side */
+
+.hero-info {
+    width: 100%;
+}
+
+.secondary-heading,
+.primary-heading {
+    color: var(--clr-heading);
+    font-weight: bold;
+}
+
+.secondary-heading {
+    font-size: 21px;
+    padding-bottom: 0.5rem;
+}
+
+.primary-heading {
+    font-size: 75px;
+    line-height: 5.5rem;
+}
+
+.primary-heading span {
+    color: var(--clr-primary);
+}
+
+.hero-info p {
+    color: var(--clr-heading);
+    font-size: 21px;
+    padding: 1rem 0;
+}
+
+.main-btn {
+    margin-top: 2rem;
+    padding: 12px 40px;
+    border-radius: 18px;
+    color: white;
+    border: 2px solid #5e3bee;
+    font-weight: 500;
+    font-size: 21px;
+    background-color: var(--clr-primary);
+    cursor: pointer;
+  }
+  
+  .main-btn:hover {
+    color: var(--clr-primary);
+    background-color: var(--clr-bg-shade);
+    transition: all 0.15s ease;
+  }
+
+/* Right side */
+
+.hero-img {
+    flex-basis: 100%;
+}
