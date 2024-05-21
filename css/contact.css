@@ -1,0 +1,77 @@
+@import url('general.css');
+
+.contact-container {
+    padding: 10rem 5rem;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-header h1 {
+    padding-bottom: 1.5rem;
+}
+
+.contact-header p {
+    color: var(--clr-body);
+    padding-bottom: 3rem;
+}
+
+.contact-form {
+    width: 100vh;
+}
+
+.main-section-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.main-section-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-info div label {
+    padding-bottom: 0.2rem;
+}
+
+.main-section-info div input {
+    border: 1px solid var(--clr-primary);
+    border-radius: 3px;
+    height: 2rem;
+}
+
+.secondary-section-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-section-info label {
+    padding-bottom: 0.2rem;
+}
+
+.secondary-section-info select {
+    height: 2rem;
+}
+
+.secondary-section-info select, textarea {
+    border: 1px solid var(--clr-primary);
+    border-radius: 3px;
+}
+
+.secondary-section-info label {
+    padding-top: 1.5rem;
+}
+
+[placeholder] {
+    padding: 0.5rem;
+}
+
+.third-section-info {
+   padding-top: 1.5rem; 
+}
